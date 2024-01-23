@@ -3,11 +3,24 @@ html {
   font-family: sans-serif;
 }
 body {
+  --dot-bg: rgb(0, 0, 0);
+  --dot-color: #272727;
+  --dot-size: 1px;
+  --dot-space: 22px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
   margin: 0;
-  background: url("pattern-randomized.svg");
-  background-color: #272727;
   color: rgb(107, 107, 107);
-  /* background-size: cover; */
   background-attachment: fixed;
   min-height: 100vh;
 }
