@@ -8,9 +8,7 @@ body {
   background-color: #272727;
   color: rgb(107, 107, 107);
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
-  position: relative;
 }
 
 header {
