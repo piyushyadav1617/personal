@@ -9,6 +9,7 @@ body {
   color: rgb(107, 107, 107);
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 header {
