@@ -7,7 +7,7 @@ body {
   background: url("pattern-randomized.svg");
   background-color: #272727;
   color: rgb(107, 107, 107);
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: fixed;
   min-height: 100vh;
 }
